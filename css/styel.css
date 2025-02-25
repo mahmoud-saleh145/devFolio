@@ -1,0 +1,733 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --main-color: rgb(0, 119, 255)
+}
+
+/* start-home */
+header {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+header h2 {
+    font-size: 72px;
+    position: relative;
+}
+
+header h2::after {
+    content: "|";
+    animation: typing 15s infinite;
+    position: absolute;
+    left: 35%;
+    bottom: -100%;
+    font-size: 40px;
+}
+
+@keyframes typing {
+    0% {
+        content: "D|";
+    }
+
+    1% {
+        content: "De|";
+    }
+
+    2% {
+        content: "Des|";
+    }
+
+    3% {
+        content: "Desig|";
+    }
+
+    4% {
+        content: "Design|";
+    }
+
+    5% {
+        content: "Designe|";
+    }
+
+    6% {
+        content: "Designer|";
+    }
+
+    7% {
+        content: "Designer|";
+    }
+
+    8% {
+        content: "Designer|";
+    }
+
+    9% {
+        content: "Designe|";
+    }
+
+    10% {
+        content: "Design|";
+    }
+
+    11% {
+        content: "Desig|";
+    }
+
+    12% {
+        content: "Desi|";
+    }
+
+    13% {
+        content: "Des|";
+    }
+
+    14% {
+        content: "De|";
+    }
+
+    15% {
+        content: "De|";
+    }
+
+    16% {
+        content: "Dev|";
+    }
+
+    17% {
+        content: "Deve|";
+    }
+
+    18% {
+        content: "Devel|";
+    }
+
+    19% {
+        content: "Develo|";
+    }
+
+    20% {
+        content: "Develop|";
+    }
+
+    21% {
+        content: "Develope|";
+    }
+
+    23% {
+        content: "Developer|";
+    }
+
+    24% {
+        content: "Developer|";
+    }
+
+    25% {
+        content: "Developer|";
+    }
+
+    26% {
+        content: "Develope|";
+    }
+
+    27% {
+        content: "Develop|";
+    }
+
+    28% {
+        content: "Develo|";
+    }
+
+    29% {
+        content: "Devel|";
+    }
+
+    30% {
+        content: "Deve|";
+    }
+
+    31% {
+        content: "Dev|";
+    }
+
+    32% {
+        content: "De|";
+    }
+
+    33% {
+        content: "D|";
+    }
+
+    34% {
+        content: "|";
+    }
+
+    35% {
+        content: "|";
+    }
+
+    36% {
+        content: "F|";
+    }
+
+    37% {
+        content: "Fr|";
+    }
+
+    38% {
+        content: "Fre|";
+    }
+
+    39% {
+        content: "Free|";
+    }
+
+    40% {
+        content: "Freel|";
+    }
+
+    41% {
+        content: "Freela|";
+    }
+
+    42% {
+        content: "Freelan|";
+    }
+
+    43% {
+        content: "Freelanc|";
+    }
+
+    44% {
+        content: "Freelance|";
+    }
+
+    45% {
+        content: "Freelancer|";
+    }
+
+    46% {
+        content: "Freelancer|";
+    }
+
+    47% {
+        content: "Freelancer|";
+    }
+
+    48% {
+        content: "Freelance|";
+    }
+
+    49% {
+        content: "Freelanc|";
+    }
+
+    50% {
+        content: "Freelan|";
+    }
+
+    51% {
+        content: "Freela|";
+    }
+
+    52% {
+        content: "Freel|";
+    }
+
+    53% {
+        content: "Free|";
+    }
+
+    54% {
+        content: "Fre|";
+    }
+
+    55% {
+        content: "Fr|";
+    }
+
+    56% {
+        content: "F|";
+    }
+
+    57% {
+        content: "|";
+    }
+
+    58% {
+        content: "|";
+    }
+
+    59% {
+        content: "P|";
+    }
+
+    60% {
+        content: "Ph|";
+    }
+
+    61% {
+        content: "Pho|";
+    }
+
+    62% {
+        content: "Phot|";
+    }
+
+    63% {
+        content: "Photo|";
+    }
+
+    64% {
+        content: "Photog|";
+    }
+
+    65% {
+        content: "Photogr|";
+    }
+
+    67% {
+        content: "Photogra|";
+    }
+
+    68% {
+        content: "Photograp|";
+    }
+
+    69% {
+        content: "Photograph|";
+    }
+
+    70% {
+        content: "Photographe|";
+    }
+
+    71% {
+        content: "Photographer|";
+    }
+
+    72% {
+        content: "Photographer|";
+    }
+
+    73% {
+        content: "Photographe|";
+    }
+
+    74% {
+        content: "Photograph|";
+    }
+
+    75% {
+        content: "Photograp|";
+    }
+
+    76% {
+        content: "Photogra|";
+    }
+
+    78% {
+        content: "Photogr|";
+    }
+
+    79% {
+        content: "Photog|";
+    }
+
+    80% {
+        content: "Photo|";
+    }
+
+    81% {
+        content: "Phot|";
+    }
+
+    82% {
+        content: "Pho|";
+    }
+
+    83% {
+        content: "Ph|";
+    }
+
+    84% {
+        content: "p|";
+    }
+
+    85% {
+        content: "|";
+    }
+}
+
+/* end-home */
+
+
+
+/* start-navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.nav-item {
+    padding: 0 8px;
+
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-item a {
+    position: relative;
+
+}
+
+nav .nav-link.active::before {
+    width: 60%;
+
+}
+
+.nav-item a::before {
+    content: '';
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.nav-item:hover a::before {
+    width: 60%;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+
+}
+
+.dropend:hover>.dropdown-menu {
+    transition: 0.3s;
+    display: block;
+    position: absolute;
+    left: 98%;
+    top: 0;
+    box-shadow: 0px 0px 30px rgba(56, 56, 56, 0.2);
+    margin-top: 0;
+}
+
+/* end-navbar */
+
+
+
+/* start-about */
+.about {
+    background-color: #F5F5F5;
+}
+
+.about .container {
+    background-color: white;
+}
+
+.skills-item p {
+    margin: 0;
+    padding-bottom: 10px;
+
+}
+
+.head-line {
+    position: relative;
+}
+
+.head-line::before {
+    content: "";
+    width: 17%;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    background-color: var(--main-color);
+}
+
+.about p {
+    color: #4E4E4E;
+    font-weight: 100;
+}
+
+/* end-about */
+
+
+
+
+
+/* start-services */
+.services {
+    background-color: #F5F5F5;
+}
+
+.title h3 {
+    font-size: 48px;
+}
+
+.title p {
+    position: relative;
+}
+
+.title p::before {
+    content: '';
+    background-color: var(--main-color);
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    bottom: -20px;
+    left: 45%;
+}
+
+
+
+.services .item .icon {
+    width: 120px;
+    height: 120px;
+    border: 10px solid var(--main-color);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.services .item:hover .icon {
+    color: white;
+    border: 10px solid #CDE1F8;
+    background-color: var(--main-color);
+}
+
+.services .item {
+    background-color: white;
+
+}
+
+
+/* end-services */
+
+
+
+
+/* start information */
+
+
+
+.information {
+    background-image: linear-gradient(rgba(0, 119, 255, 0.7), rgba(0, 119, 255, 0.7)), url(./../img/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+
+.information .info-icon {
+    width: 80px;
+    height: 80px;
+    border: 10px solid #CDE1F8;
+    border-radius: 50%;
+}
+
+.information .info-content p {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.portfolio .parent-text {
+    background-color: white;
+}
+
+.portfolio .plus-icon {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
+}
+
+/* end information */
+
+
+/* start portfolio */
+.portfolio {
+    background-color: #F5F5F5;
+}
+
+.portfolio .portfolio-card .parent-text p {
+    font-size: 13px;
+}
+
+.portfolio .portfolio-card .card-img {
+    overflow: hidden;
+}
+
+.portfolio .portfolio-card .card-img img {
+    transition: 1.1s;
+
+}
+
+.portfolio .portfolio-card .card-img:hover img {
+    transform: scale(1.3);
+
+}
+
+.plus-icon i {
+    transition: 0.5s;
+}
+
+.plus-icon:hover i {
+    color: #0A58CA;
+
+}
+
+/* end portfolio */
+
+
+/* start client */
+.client {
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 119, 255, 0.7), rgba(0, 119, 255, 0.7)), url(./../img/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+
+}
+
+/* end client */
+
+
+
+
+
+
+
+/* start BLOG */
+.blog {
+    background-color: #F5F5F5;
+}
+
+.blog .blog-card {
+    background-color: white;
+}
+
+.blog .blog-text {
+    background-color: white;
+}
+
+.blog .travel-headline {
+    width: max-content;
+    height: max-content;
+}
+
+.blog .travel-headline h6 {
+    font-size: 12px;
+}
+
+
+.clock {
+    background-color: #F5F5F5;
+}
+
+.blog .card-test {
+
+    width: 33px;
+    height: 33px;
+}
+
+.blog-card a {
+    transition: 0.5s;
+    color: black;
+}
+
+.blog a:hover {
+    color: var(--main-color);
+}
+
+/* end BLOG */
+
+
+
+
+
+
+/* start contact */
+
+
+.contact {
+    background-image: linear-gradient(rgba(0, 119, 255, 0.7), rgba(0, 119, 255, 0.7)), url(./../img/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.contact .container {
+    background-color: white;
+}
+
+.contact .btn {
+    border: 4px solid white;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background-color: #3393FF;
+    border: 4px solid #CDE1F8;
+
+
+}
+
+.contact-icon {
+    width: 45px;
+    height: 45px;
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.contact-icon:hover {
+    color: white;
+    background-color: var(--main-color);
+    border-color: #CDE1F8;
+}
+
+/* end contact */
+
+
+
+
+
+
+
+footer {
+    background-color: #0062D3;
+}
+
+
+.copyright-icon {
+    font-size: 13px;
+}
