@@ -9,358 +9,613 @@ body {
 /* start-home */
 header {
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../img/hero-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../img/pexels-padrinan-1591061.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 
 }
 
-header h2 {
-    font-size: 72px;
-    position: relative;
+a {
+    text-decoration: none;
 }
 
-header h2::after {
-    content: "|";
-    animation: typing 15s infinite;
+header h5 {
+    font-weight: 900;
+    font-size: 50px;
+    position: relative;
+
+}
+
+
+header h5::before {
+    content: "I Am|";
+    margin: auto;
     position: absolute;
-    left: 35%;
-    bottom: -100%;
-    font-size: 40px;
+    bottom: -80px;
+    transform: translateX(-40%);
+    margin-left: 15px;
+    font-weight: 500;
+    animation: typing 13s infinite;
+    font-size: 60px;
+}
+
+@media (max-width: 1200px) {
+
+    header h5::before {
+        font-size: 40px;
+        transform: translateX(-35%);
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    header h5::before {
+        font-size: 40px;
+        transform: translateX(-30%);
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    header h5::before {
+        font-size: 30px;
+        transform: translateX(-25%);
+    }
+
 }
 
 @keyframes typing {
-    0% {
-        content: "D|";
-    }
-
     1% {
-        content: "De|";
+        content: "I Am M|";
+
     }
 
     2% {
-        content: "Des|";
+        content: "I Am Ma|";
+
+
     }
 
     3% {
-        content: "Desig|";
+        content: "I Am Mah|";
+
     }
 
     4% {
-        content: "Design|";
+        content: "I Am Mahm|";
+
+
     }
 
     5% {
-        content: "Designe|";
+        content: "I Am Mahmo|";
+
+        ;
     }
 
     6% {
-        content: "Designer|";
+        content: "I Am Mahmou|";
+
+        ;
     }
 
     7% {
-        content: "Designer|";
+        content: "I Am Mahmoud|";
+
+        ;
     }
 
     8% {
-        content: "Designer|";
+        content: "I Am Mahmoud |";
+
+        ;
     }
 
     9% {
-        content: "Designe|";
+        content: "I Am Mahmoud S|";
+
+        ;
     }
 
     10% {
-        content: "Design|";
+        content: "I Am Mahmoud Sa|";
+        ;
+        ;
     }
 
     11% {
-        content: "Desig|";
+        content: "I Am Mahmoud Sal|";
+        ;
+        ;
     }
 
     12% {
-        content: "Desi|";
+        content: "I Am Mahmoud Sale|";
+        ;
+        ;
     }
 
     13% {
-        content: "Des|";
+        content: "I Am Mahmoud Saleh|";
+        ;
+        ;
     }
 
     14% {
-        content: "De|";
+        content: "I Am Mahmoud Saleh|";
+        ;
+        ;
     }
 
     15% {
-        content: "De|";
+        content: "I Am Mahmoud Saleh|";
+        ;
+        ;
     }
 
     16% {
-        content: "Dev|";
+        content: "I Am Mahmoud Saleh|";
+        ;
+        ;
     }
 
     17% {
-        content: "Deve|";
+        content: "I Am Mahmoud Saleh|";
+        ;
+        ;
     }
 
     18% {
-        content: "Devel|";
+        content: "I Am Mahmoud Saleh|";
+        ;
+        ;
     }
 
     19% {
-        content: "Develo|";
+        content: "I Am Mahmoud Saleh|";
+        ;
+        ;
     }
 
     20% {
-        content: "Develop|";
+        content: "I Am Mahmoud Saleh|";
+        ;
+        ;
     }
 
     21% {
-        content: "Develope|";
+        content: "I Am Mahmoud Sale|";
+
+        ;
+    }
+
+    22% {
+        content: "I Am Mahmoud Sal|";
+
+        ;
     }
 
     23% {
-        content: "Developer|";
+        content: "I Am Mahmoud Sa|";
+
+        ;
     }
 
     24% {
-        content: "Developer|";
+        content: "I Am Mahmoud S|";
+
+        ;
     }
 
     25% {
-        content: "Developer|";
+        content: "I Am Mahmoud |";
+
+        ;
     }
 
     26% {
-        content: "Develope|";
+        content: "I Am Mahmou|";
+
+        ;
     }
 
     27% {
-        content: "Develop|";
+        content: "I Am Mahmo|";
+
+        ;
     }
 
     28% {
-        content: "Develo|";
+        content: "I Am Mahm|";
+
+        ;
     }
 
     29% {
-        content: "Devel|";
+        content: "I Am Mah|";
+
+
     }
 
     30% {
-        content: "Deve|";
+        content: "I Am Ma|";
+
+
     }
 
     31% {
-        content: "Dev|";
+        content: "I Am M|";
+
+
     }
 
     32% {
-        content: "De|";
+        content: "I Am |";
+
+
     }
 
     33% {
-        content: "D|";
+        content: "I Am |";
+
     }
 
     34% {
-        content: "|";
+        content: "I Am |";
+
     }
 
     35% {
-        content: "|";
+        content: "I Am |";
+
     }
 
     36% {
-        content: "F|";
+        content: "I Am |";
+
     }
 
     37% {
-        content: "Fr|";
+        content: "I Am |";
+
     }
 
     38% {
-        content: "Fre|";
+        content: "I Am |";
+
     }
 
     39% {
-        content: "Free|";
+        content: "I Am |";
+
     }
 
     40% {
-        content: "Freel|";
+        content: "I Am |";
+
     }
 
     41% {
-        content: "Freela|";
+        content: "I Am |";
+
     }
 
     42% {
-        content: "Freelan|";
+        content: "I Am D|";
+
     }
 
     43% {
-        content: "Freelanc|";
+        content: "I Am De|";
+
     }
 
     44% {
-        content: "Freelance|";
+        content: "I Am Dev|";
+
     }
 
     45% {
-        content: "Freelancer|";
+        content: "I Am Deve|";
+
     }
 
     46% {
-        content: "Freelancer|";
+        content: "I Am Devel|";
+
+
+        ;
     }
 
     47% {
-        content: "Freelancer|";
+        content: "I Am Develo|";
+
+
+        ;
     }
 
     48% {
-        content: "Freelance|";
+        content: "I Am Develop|";
+
+
+        ;
     }
 
     49% {
-        content: "Freelanc|";
+        content: "I Am Develope|";
+
+
+        ;
     }
 
     50% {
-        content: "Freelan|";
+        content: "I Am Developer|";
+
+
+        ;
     }
 
     51% {
-        content: "Freela|";
+        content: "I Am Developer|";
+
+
+        ;
     }
 
     52% {
-        content: "Freel|";
+        content: "I Am Developer|";
+
+
+        ;
     }
 
     53% {
-        content: "Free|";
+        content: "I Am Developer|";
+
+
+        ;
     }
 
     54% {
-        content: "Fre|";
+        content: "I Am Developer|";
+
+
+        ;
     }
 
     55% {
-        content: "Fr|";
+        content: "I Am Developer|";
+
+
+        ;
     }
 
     56% {
-        content: "F|";
+        content: "I Am Developer|";
+
     }
 
     57% {
-        content: "|";
+        content: "I Am Developer|";
+
     }
 
     58% {
-        content: "|";
+        content: "I Am Develope|";
+
     }
 
     59% {
-        content: "P|";
+        content: "I Am Develop|";
+
     }
 
     60% {
-        content: "Ph|";
+        content: "I Am Develo|";
+
     }
 
     61% {
-        content: "Pho|";
+        content: "I Am Devel|";
+
     }
 
     62% {
-        content: "Phot|";
+        content: "I Am Deve|";
+
     }
 
     63% {
-        content: "Photo|";
+        content: "I Am Dev|";
+
     }
 
     64% {
-        content: "Photog|";
+        content: "I Am De|";
+
     }
 
     65% {
-        content: "Photogr|";
+        content: "I Am D|";
+
     }
 
     67% {
-        content: "Photogra|";
+        content: "I Am |";
+
     }
 
     68% {
-        content: "Photograp|";
+        content: "I Am |";
+
     }
 
     69% {
-        content: "Photograph|";
+        content: "I Am |";
+
     }
 
     70% {
-        content: "Photographe|";
+        content: "I Am |";
+
     }
 
     71% {
-        content: "Photographer|";
+        content: "I Am |";
+
     }
 
     72% {
-        content: "Photographer|";
+        content: "I Am |";
+
     }
 
     73% {
-        content: "Photographe|";
+        content: "I Am |";
+
     }
 
     74% {
-        content: "Photograph|";
+        content: "I Am |";
+
     }
 
     75% {
-        content: "Photograp|";
+        content: "I Am |";
+
     }
 
     76% {
-        content: "Photogra|";
+        content: "I Am D|";
+
+    }
+
+    77% {
+        content: "I Am De|";
+
     }
 
     78% {
-        content: "Photogr|";
+        content: "I Am Des|";
+
     }
 
     79% {
-        content: "Photog|";
+        content: "I Am Desi|";
+
     }
 
     80% {
-        content: "Photo|";
+        content: "I Am Desig|";
+
     }
 
     81% {
-        content: "Phot|";
+        content: "I Am Design|";
+
     }
 
     82% {
-        content: "Pho|";
+        content: "I Am Designe|";
+
     }
 
     83% {
-        content: "Ph|";
+        content: "I Am Designer|";
+
     }
 
     84% {
-        content: "p|";
+        content: "I Am Designer|";
+
     }
 
     85% {
-        content: "|";
+        content: "I Am Designer|";
+
+    }
+
+    86% {
+        content: "I Am Designer|";
+
+    }
+
+    87% {
+        content: "I Am Designer|";
+
+    }
+
+    88% {
+        content: "I Am Designer|";
+
+    }
+
+    89% {
+        content: "I Am Designer|";
+
+    }
+
+    90% {
+        content: "I Am Designer|";
+
+    }
+
+    91% {
+        content: "I Am Designer|";
+
+    }
+
+    92% {
+        content: "I Am Designe|";
+
+    }
+
+    93% {
+        content: "I Am Design|";
+
+    }
+
+    94% {
+        content: "I Am Desig|";
+
+    }
+
+    95% {
+        content: "I Am Desi|";
+
+    }
+
+    96% {
+        content: "I Am Des|";
+
+    }
+
+    97% {
+        content: "I Am De|";
+
+    }
+
+    98% {
+        content: "I Am D|";
+
+    }
+
+    98% {
+        content: "I Am |";
+
+    }
+
+    99% {
+        content: "I Am |";
+
+    }
+
+    100% {
+        content: "I Am |";
+
     }
 }
 
@@ -479,18 +734,18 @@ nav .nav-link.active::before {
     font-size: 48px;
 }
 
-.title p {
+.title {
     position: relative;
 }
 
-.title p::before {
+.title ::before {
     content: '';
     background-color: var(--main-color);
-    width: 40px;
+    width: 45px;
     height: 4px;
     position: absolute;
     bottom: -20px;
-    left: 45%;
+    left: 47.5%;
 }
 
 
